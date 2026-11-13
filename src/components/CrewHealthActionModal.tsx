@@ -27,7 +27,7 @@ export const CrewHealthActionModal: React.FC<CrewHealthActionModalProps> = ({
             Keep Crew Healthy for the Trip Home!
           </h2>
           <p className="font-mono-hud text-xs text-emerald-200 mt-1">
-            Tap all 3 daily zero-gravity health habits before firing thrusters toward Earth:
+            Tap all 3 daily space health habits before flying home to Earth:
           </p>
         </div>
 
@@ -48,10 +48,10 @@ export const CrewHealthActionModal: React.FC<CrewHealthActionModalProps> = ({
               <PixelIcon name="activity" className="w-5 h-5 text-emerald-400 shrink-0" />
               <div>
                 <div className="font-title text-xs font-bold text-white">
-                  1. Daily Zero-G Workout (2 Hours)
+                  1. Exercise About 2 Hours a Day
                 </div>
                 <div className="font-mono-hud text-[11px] text-slate-300 mt-0.5">
-                  Stops astronauts from losing bone &amp; muscle strength in floating space!
+                  When you float, bones and muscles get weaker. Space Station astronauts exercise about 2 hours every day to stay strong.
                 </div>
               </div>
             </div>
@@ -80,10 +80,10 @@ export const CrewHealthActionModal: React.FC<CrewHealthActionModalProps> = ({
               <PixelIcon name="sun" className="w-5 h-5 text-sky-400 shrink-0" />
               <div>
                 <div className="font-title text-xs font-bold text-white">
-                  2. Cabin Sleep Clock Lights
+                  2. Day-and-Night Lights
                 </div>
                 <div className="font-mono-hud text-[11px] text-slate-300 mt-0.5">
-                  Helps crew sleep well when 16 sunrises happen every day in orbit!
+                  Space has no normal day and night. NASA uses brighter, bluer light in the &quot;morning&quot; and dimmer, redder light at &quot;night&quot; to help astronauts sleep.
                 </div>
               </div>
             </div>
@@ -112,10 +112,10 @@ export const CrewHealthActionModal: React.FC<CrewHealthActionModalProps> = ({
               <PixelIcon name="sprout" className="w-5 h-5 text-amber-400 shrink-0" />
               <div>
                 <div className="font-title text-xs font-bold text-white">
-                  3. Fresh Space Veggies Meal
+                  3. Healthy Meals + Fresh Lettuce
                 </div>
                 <div className="font-mono-hud text-[11px] text-slate-300 mt-0.5">
-                  Hydroponic greens keep astronaut immune shields strong on the flight home!
+                  The trip home takes many months. Astronauts have grown and eaten fresh lettuce on the Space Station to add vitamins.
                 </div>
               </div>
             </div>

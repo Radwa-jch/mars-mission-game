@@ -32,7 +32,7 @@ export const MissionCompleteModal: React.FC<MissionCompleteModalProps> = ({
   const isMission3 = stats.missionId === 'mission_3';
 
   const learnedSummary = isMission3
-    ? 'You learned why dusty rover parts must be shut down inside a 400W power budget, how a two-stage Mars Rocket drops its empty tank cleanly, and how astronauts dock safely in microgravity while heading home to Earth!'
+    ? 'You learned why rover teams plan every watt, why a two-stage rocket drops Stage 1 to get lighter, why a Mars rocket must steer itself, and how astronauts stay healthy while floating in space!'
     : isMission2
     ? 'You used ground-penetrating radar (RIMFAX) across an ancient river valley, discovered how thick stone lava tubes block 95% of space rays, and sealed Rock Tube #14 before escaping the shaking Marsquake!'
     : 'You learned why astronauts repair gear with spare parts, why radio messages between Mars and Earth take several minutes, and why thin-air Mars dust storms mean crews must hurry indoors!';
@@ -99,14 +99,9 @@ export const MissionCompleteModal: React.FC<MissionCompleteModalProps> = ({
           <p className="text-xs sm:text-sm text-slate-200 leading-relaxed">
             {learnedSummary}
           </p>
-          {isMission3 && stats.breakerChoice && (
+          {isMission3 && (
             <p className="text-xs text-amber-300 mt-2">
-              Your Rover Helper Tool:{' '}
-              {stats.breakerChoice === 'shield'
-                ? 'Ray & Dust Shield (blocked half the Dust Tornado bump damage!)'
-                : stats.breakerChoice === 'scanner'
-                ? 'Rock Scanner (+25 extra Science Points earned!)'
-                : 'Battery Boost (+15% extra rover power saved!)'}
+              Rover power: you turned off broken Heater #2, so the rover used 320 W of its 400 W.
             </p>
           )}
         </div>

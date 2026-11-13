@@ -84,17 +84,17 @@ const EVENT_CONFIGS: Record<CinematicEventType, EventConfig> = {
     ],
   },
   mission_3_launch_crisis: {
-    badge: 'MISSION 3 EVENT // DUST CYCLONE & LIFTOFF!',
-    title: 'Emergency Rocket Ignition',
+    badge: 'MISSION 3 EVENT // LIFTOFF!',
+    title: 'Rocket Launch',
     description:
-      'A giant dust vortex sweeps across the launchpad as Hazaloom, Hedeya, and Samantha board the Mars Rocket for liftoff!',
+      'Rock Tube #14 is loaded and Hazaloom, Hedeya, and Samantha are ready. Earth is too far away to steer this flight live, so you are the rocket’s computer!',
     defaultPaths: ['/assets/cinematic/mission3_event.mp4'],
     uploadPathHint: '',
     continueLabel: 'Launch Rocket!',
     themeColor: 'red',
     cues: [
-      { start: 0.4, end: 4.5, speaker: 'SAMANTHA', speakerColor: 'text-emerald-300', text: 'Wind speeds spiking! Giant dust tornadoes are converging on the pad!' },
-      { start: 4.5, end: 9.0, speaker: 'HEDEYA', speakerColor: 'text-sky-300', text: 'Rocket Tube #14 is locked in the nose cone! Igniting main thrusters NOW!' },
+      { start: 0.4, end: 4.5, speaker: 'SAMANTHA', speakerColor: 'text-emerald-300', text: 'Rock Tube #14 is loaded. All systems are ready!' },
+      { start: 4.5, end: 9.0, speaker: 'HEDEYA', speakerColor: 'text-sky-300', text: 'Radio messages to Earth take minutes, so nobody there can steer us live!' },
       { start: 9.0, end: 14.0, speaker: 'HAZALOOM', speakerColor: 'text-amber-400', text: 'Hold tight everyone! Lifting off Mars in 3... 2... 1...!' },
     ],
   },
